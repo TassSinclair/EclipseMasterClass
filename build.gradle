@@ -1,0 +1,15 @@
+group 'net.sinclairstudios'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.assertj:assertj-core:2.2.0'
+    testCompile 'junit:junit:4.11'
+}
