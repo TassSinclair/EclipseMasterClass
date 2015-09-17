@@ -1,12 +1,10 @@
 package net.sinclairstudios.emc;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalUnit;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
 
@@ -62,14 +60,7 @@ public class PassengerTest {
     LocalDate tenYearsLater = LocalDate.of(2010, Month.JANUARY, 1);
 
     // Use Ctrl-Alt-↑ and Ctrl-Alt-↓ to duplicate a selection of code above or below.
-//     assertThat(passenger.getAgeAt(fiveYearsLater)).isEqualTo(5);
+    // assertThat(passenger.getAgeAt(fiveYearsLater)).isEqualTo(5);
 
-  }
-
-  @Test
-  public void testGetAgeToday()
-    throws Exception
-  {
-    throw new RuntimeException("not yet implemented");
   }
 }

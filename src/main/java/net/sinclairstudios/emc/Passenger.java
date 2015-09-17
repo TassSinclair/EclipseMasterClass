@@ -1,6 +1,5 @@
 package net.sinclairstudios.emc;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.HashSet;
