@@ -36,6 +36,9 @@ public class PassengerTest {
   // Use Mockito mock(...) and when(...) to complete this test.
   // Java -> Editor -> Content Assist -> Favorites
   // Add org.mockito.Mockito
+  // Java -> Editor -> Content Assist
+  // Check "Completion overwrites" to ensure that autocompleted code doesn't clobber
+  // existing code.
   @Test
   public void shouldReturnTrueWhenAskingIfPassengerHasABagThatTheyShouldHave() {
     Passenger passenger = new Passenger("Joe Shmoe", Nationality.NZ, null);
